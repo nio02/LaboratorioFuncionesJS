@@ -12,8 +12,6 @@ const usuarios = [
     {nombre: "Dieguito", edad: 16}
 ];
 
-// console.log(usuarios[1]["nombre"])
-
 let minEdadUsuario = Number(prompt("Introduzca la edad minima: "))
 
 function filtrarUsuarios(array, edadMinima){
